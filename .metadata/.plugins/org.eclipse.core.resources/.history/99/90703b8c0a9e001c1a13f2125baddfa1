@@ -1,0 +1,24 @@
+package com.luiz.udemy_one;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Employee {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter employee name: ");
+		double name = sc.nextDouble();
+		System.out.println("Enter the gross salary: ");
+		double grossSalary = sc.nextDouble();
+		System.out.println("Enter the tax: ");
+		double tax = sc.nextDouble();
+		
+		
+		sc.close();
+	}
+
+}
